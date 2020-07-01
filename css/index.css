@@ -30,7 +30,7 @@ body{
 }
 .banner_container{
     background-image: url(/img/banner.jpg);
-    min-height: 300px;
+    min-height: 325px;
     max-width: 90%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -57,15 +57,16 @@ h1, h2{
 .buy_text_container{
     padding-top: 30px;
     text-align: center;
-    background-color: #1c2956;
+    /* background-color: #1c2956; */
 	width: 15em;
 	height: 15em;
 	border-radius: 50%;
-	box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    border: 20px solid blue;
 justify-self: center;
 }
 .buy_text{
-    padding-top: 50px;
+    padding-top: 35px;
 }
 .buy_heading{
     text-align: center;
