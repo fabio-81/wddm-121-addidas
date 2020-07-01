@@ -6,7 +6,7 @@ body{
     display: flex;
     width: 100%;
     align-items: center;
-    background-color: darkcyan;
+    background-color: white;
     padding: 10px;
 
 }
@@ -15,6 +15,8 @@ body{
     display: flex;
     flex: 8;
     justify-content: space-evenly;
+    padding: 10px;
+    background-color: black;
         
 }
 .navigation_links a{
