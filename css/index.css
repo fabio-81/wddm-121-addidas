@@ -10,3 +10,10 @@ body{
     padding: 10px;
 
 }
+.navigation_links{
+    
+    display: flex;
+    flex: 4;
+    justify-content: space-evenly;
+        
+}
