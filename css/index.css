@@ -20,3 +20,13 @@ body{
 .logo{
     flex: 1;
 }
+.banner_container{
+    background-image: url(/img/banner_wih_shoes.png);
+    min-height: 366px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_heading_container{
+    text-align: left;
+    width: 40%;
+}
