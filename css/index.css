@@ -30,3 +30,7 @@ body{
     text-align: left;
     width: 40%;
 }
+.section_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
