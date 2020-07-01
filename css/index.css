@@ -57,12 +57,12 @@ h1, h2{
 .buy_text_container{
     padding-top: 30px;
     text-align: center;
-    /* background-color: #1c2956; */
+    background-color: #f6f50e;
 	width: 15em;
 	height: 15em;
 	border-radius: 50%;
     box-shadow: 0 0 1em rgba(0,0,0,0.2);
-    border: 20px solid blue;
+    border: 20px solid #1c2956;
 justify-self: center;
 }
 .buy_text{
