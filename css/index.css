@@ -34,3 +34,11 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.buy_now_container{
+    background-color: #1c2956;
+	width: 15em;
+	height: 15em;
+	border-radius: 50%;
+	box-shadow: 0 0 1em rgba(0,0,0,0.2);
+justify-self: center;
+}
