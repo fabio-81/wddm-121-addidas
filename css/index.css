@@ -47,6 +47,16 @@ body{
     margin: 0 auto;
 }
 .buy_now_container{
+
+justify-self: center;
+}
+h1, h2{
+    font-family: roboto;
+
+}
+.buy_text_container{
+    padding-top: 30px;
+    text-align: center;
     background-color: #1c2956;
 	width: 15em;
 	height: 15em;
@@ -54,7 +64,9 @@ body{
 	box-shadow: 0 0 1em rgba(0,0,0,0.2);
 justify-self: center;
 }
-h1, h2{
-    font-family: roboto;
-
+.buy_text{
+    padding-top: 50px;
+}
+.buy_heading{
+    text-align: center;
 }
