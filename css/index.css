@@ -18,17 +18,19 @@ body{
     justify-content: space-evenly;
     padding: 10px;
     background-color: black;
+    text-transform: uppercase;
         
 }
 .navigation_links a{
     color: white;
+    text-decoration: none;
 }
 .logo{
     flex: 1;
 }
 .banner_container{
     background-image: url(/img/banner.jpg);
-    min-height: 366px;
+    min-height: 300px;
     max-width: 90%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -36,7 +38,7 @@ body{
 }
 .main_heading_container{
     text-align: left;
-    width: 40%;
+    width: 33%;
 }
 .section_container{
     display: grid;
@@ -51,4 +53,8 @@ body{
 	border-radius: 50%;
 	box-shadow: 0 0 1em rgba(0,0,0,0.2);
 justify-self: center;
+}
+h1, h2{
+    font-family: roboto;
+
 }
