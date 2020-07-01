@@ -13,8 +13,8 @@ body{
 }
 .navigation_links{
     
-    display: flex;
-    flex: 8;
+    /* display: flex;
+    flex: 8; */
     justify-content: space-evenly;
     padding: 10px;
     background-color: black;
@@ -92,5 +92,13 @@ justify-self: center;
         
     
     }
+    .navigation_links{
+    
+        display: flex;
+        flex: 8;
+        justify-content: space-evenly;
+        padding: 10px;
 
+            
+    }
 }
