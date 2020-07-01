@@ -38,7 +38,8 @@ body{
 }
 .main_heading_container{
     text-align: left;
-    width: 33%;
+    width: 31%;
+    padding-left: 10px;
 }
 .section_container{
     display: grid;
