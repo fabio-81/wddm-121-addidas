@@ -42,9 +42,10 @@ body{
 }
 .section_container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 90%;
     margin: 0 auto;
+    grid-gap: 20px;
 }
 .buy_now_container{
 
@@ -70,4 +71,7 @@ justify-self: center;
 }
 .buy_heading{
     text-align: center;
+}
+.content_image_specifications{
+    padding-top: 30px;
 }
