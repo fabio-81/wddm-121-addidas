@@ -4,10 +4,11 @@ body{
 }
 .navigation_container{
     display: flex;
-    width: 100%;
+    max-width: 90%;
     align-items: center;
     background-color: white;
     padding: 10px;
+    margin: 0 auto;
 
 }
 .navigation_links{
@@ -26,10 +27,12 @@ body{
     flex: 1;
 }
 .banner_container{
-    background-image: url(/img/banner_wih_shoes.png);
+    background-image: url(/img/banner.jpg);
     min-height: 366px;
+    max-width: 90%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    margin: 0 auto;
 }
 .main_heading_container{
     text-align: left;
@@ -38,6 +41,8 @@ body{
 .section_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 90%;
+    margin: 0 auto;
 }
 .buy_now_container{
     background-color: #1c2956;
