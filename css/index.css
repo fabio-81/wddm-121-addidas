@@ -17,6 +17,9 @@ body{
     justify-content: space-evenly;
         
 }
+.navigation_links a{
+    color: white;
+}
 .logo{
     flex: 1;
 }
