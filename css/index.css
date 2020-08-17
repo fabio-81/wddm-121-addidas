@@ -32,10 +32,10 @@ body{
 }
 .banner_container{
     background-image: url(../img/banner.jpg);
-    min-height: 325px;
+    min-height: 20em;
     max-width: 90%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin: 0 auto;
 }
 .main_heading_container{
